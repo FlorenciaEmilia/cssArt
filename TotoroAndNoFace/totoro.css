@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: greenyellow;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.p {
+	width: 8px;
+	height: 8px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	overflow-x: auto;
+}
+
+.green {
+	background-color: greenyellow;
+}
+
+.black {
+	background-color: black;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.white {
+	background-color: white;
+}
+
+.violet {
+	background-color: indigo;
+}
+
+.dark-grey {
+	background-color: #474747;
+}
