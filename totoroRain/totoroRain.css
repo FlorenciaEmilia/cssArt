@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	width: 100vw;
+	overflow: hidden;
+	background-color: #42d7f5;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.p {
+	width: 13px;
+	height: 13px;
+}
+.turquoise {
+	background-color: #42d7f5;
+}
+
+.cyan {
+	background-color: #9beafa;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.gray {
+	background-color: #737373;
+}
+
+.white {
+	background-color: #ffffff;
+}
+
+.green {
+	background-color: #acfcad;
+}
