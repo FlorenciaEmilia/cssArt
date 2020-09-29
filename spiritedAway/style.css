@@ -1,0 +1,35 @@
+.row {
+  display: flex;
+}
+.p {
+  width: 10px;
+  height: 10px;
+}
+.sky {
+  background-color: #2178c4;
+}
+
+.dragon-border {
+  /* background-color: rgba(19, 7, 7, 0); */
+  background-color: grey;
+}
+
+.horn {
+  background-color: #c2c2ae;
+}
+
+.dragon-hair-border {
+  background-color: #55695a;
+}
+
+.horn-border {
+  background-color: #807c6f;
+}
+
+.dragon-hair {
+  background-color: mediumaquamarine;
+}
+
+.dragon {
+  background-color: #bfbfbf;
+}
