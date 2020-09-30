@@ -6,7 +6,7 @@
   height: 10px;
 }
 .sky {
-  background-color: #2178c4;
+  background-color: #3283b3;
 }
 
 .dragon-border {
@@ -32,4 +32,8 @@
 
 .dragon {
   background-color: #bfbfbf;
+}
+
+.star {
+  background-color: #feffeb;
 }
