@@ -1,0 +1,160 @@
+:root {
+  --border: 10px solid black;
+  --blue: #375380;
+  --red: #f54040;
+  --white: #ffffff;
+  --yellow: #fae505;
+}
+
+body {
+  display: flex;
+
+  justify-content: center;
+  background-color: black;
+}
+#canvas {
+  min-width: 1000px;
+  min-height: 575px;
+  position: relative;
+}
+
+#canvas div:nth-of-type(1) {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background-color: var(--blue);
+  border-bottom: var(--border);
+  border-right: var(--border);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(2) {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  background-color: var(--red);
+  border-bottom: var(--border);
+  border-right: var(--border);
+  border-left: var(--border);
+  top: 0;
+  left: 350px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(3) {
+  position: absolute;
+  width: 257px;
+  height: 470px;
+  background-color: var(--white);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  top: 0;
+  left: 750px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(4) {
+  position: absolute;
+  width: 275px;
+  height: 400px;
+  background-color: var(--white);
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-right: var(--border);
+  top: 100px;
+  left: 0px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(5) {
+  position: absolute;
+  width: 65px;
+  height: 250px;
+  background-color: var(--white);
+  border: var(--border);
+  top: 100px;
+  left: 275px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(6) {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: var(--yellow);
+  border: var(--border);
+  top: 50px;
+  left: 350px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(7) {
+  position: absolute;
+  width: 90px;
+  height: 300px;
+  background-color: var(--white);
+  border: var(--border);
+  top: 50px;
+  left: 650px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(8) {
+  position: absolute;
+  width: 120px;
+  height: 140px;
+  background-color: var(--blue);
+  border: var(--border);
+  top: 360px;
+  left: 275px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(9) {
+  position: absolute;
+  width: 335px;
+  height: 100px;
+  background-color: var(--red);
+  border: var(--border);
+  top: 360px;
+  left: 405px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(10) {
+  position: absolute;
+  width: 405px;
+  height: 55px;
+  background-color: var(--yellow);
+  border-top: var(--border);
+  border-right: var(--border);
+  top: 510px;
+  left: 0px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(11) {
+  position: absolute;
+  width: 300px;
+  height: 95px;
+  background-color: var(--white);
+  border-top: var(--border);
+  border-right: var(--border);
+  top: 470px;
+  left: 415px;
+  z-index: 2;
+}
+
+#canvas div:nth-of-type(12) {
+  position: absolute;
+  width: 292px;
+  height: 95px;
+  background-color: var(--blue);
+  border-top: var(--border);
+  border-left: var(--border);
+  top: 470px;
+  left: 715px;
+  z-index: 2;
+}
